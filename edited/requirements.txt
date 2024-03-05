@@ -1,0 +1,5 @@
+flask_mysqldb
+WTForms==2.3.3
+passlib
+mysql-connector
+email_validator

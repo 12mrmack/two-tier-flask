@@ -27,9 +27,9 @@ app.secret_key = os.urandom(24)
 #MySQL Configuration Codes
 mysql = MySQL()
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'new-password'
-app.config['MYSQL_DB'] = 'personalblog'
+app.config['MYSQL_USER'] = 'admin'
+app.config['MYSQL_PASSWORD'] = 'admin'
+app.config['MYSQL_DB'] = 'flask'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 #Initialize the app for use with this MySQL class
